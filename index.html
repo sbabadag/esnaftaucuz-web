@@ -2,16 +2,44 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
-    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="esnaftaucuz - Fiyat Paylaşım Uygulaması" />
-    <title>esnaftaucuz</title>
-    <script type="module" crossorigin src="/assets/index-CLxYNzRu.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CCM6Tmdh.css">
+    <meta name="description" content="esnaftaucuz — mahallendeki esnaf fiyatlarını karşılaştır. Market, bakkal ve pazarlardaki güncel ürün fiyatlarını gör, en uygununu bul." />
+    <meta name="theme-color" content="#16a34a" />
+    <!-- Google Search Console doğrulama: token'ı alınca aşağıdaki satırı aktifleştir
+    <meta name="google-site-verification" content="BURAYA_TOKEN" />
+    -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="esnaftaucuz" />
+    <meta property="og:title" content="esnaftaucuz — Esnaf Fiyat Paylaşım Uygulaması" />
+    <meta property="og:description" content="Mahallendeki esnaf fiyatlarını karşılaştır. Güncel ürün fiyatlarını gör, en uygununu bul." />
+    <meta property="og:locale" content="tr_TR" />
+    <meta name="twitter:card" content="summary" />
+    <title>esnaftaucuz — Esnaf Fiyat Paylaşım Uygulaması</title>
+    <!-- Restore path encoded by public/404.html SPA redirect (?/app/explore → /app/explore) -->
+    <script>
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/assets/index-SIQdiyi5.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DvItzIzq.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>
-

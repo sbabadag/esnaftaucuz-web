@@ -1,0 +1,1 @@
+function r(e){return String(e||"").trim().replace(/\s+/g," ").toLocaleLowerCase("tr-TR").replace(/İ/g,"i").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/ı/g,"i").replace(/ğ/g,"g").replace(/ü/g,"u").replace(/ş/g,"s").replace(/ö/g,"o").replace(/ç/g,"c").replace(/â/g,"a").replace(/î/g,"i").replace(/û/g,"u")}export{r as normalizeSearchKey};
